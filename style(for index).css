@@ -1,0 +1,94 @@
+html {
+    background-image: url(images/背景图.jpg);
+    background-size: auto;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font: normal 18px Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    width: 300px;
+    position: fixed;
+    height: 100%;
+}
+a {
+    display: block;
+    width: 200px;
+} 
+li a {
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555555;
+    color: black;
+}
+li a:active {
+    color: #fcc42b
+}
+
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rg(145, 124, 85);
+    font-size: 50px;
+    font-style: normal;
+    word-spacing: 0.5em; 
+    position: relative;
+    text-align: center;
+    color: ivory;
+}
+.box1 {
+    border-style: groove;
+    border-radius: 100px;
+    padding-top: 90px;
+    border-width: 5px;
+    border-color: #fcc42b;
+    margin: 50px;
+    color: ivory;
+    position: absolute;
+    font-weight: normal;
+}
+.box1 h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fcc42b;
+}
+#main-block {
+    float: left;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 23px;
+    padding-bottom: 23px;
+    border-style: dotted;
+}
+
+#sidebar {
+    float: right;
+    width: 50%;
+    padding-right: 3px;
+}
+#bottom {
+    padding-top: 450px;
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#footer {
+    background-color: #fcc42b;
+    color: wheat;
+    text-align:center;
+    padding:5px; 
+    margin:100px;
+    margin-top: 20px;
+    margin-block-end: 20px;
+}
